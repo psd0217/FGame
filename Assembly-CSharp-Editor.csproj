@@ -172,6 +172,7 @@
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Packed 3.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
      <None Include="Assets\HUD Text\Examples\Atlases\Arimo20.txt" />
+     <None Include="Assets\Font\LICENSE_OFL.txt" />
      <None Include="Assets\GUI Animator\GUI Animator FREE\Readme.txt" />
      <None Include="Assets\Unitycoding\UI Widgets\Changelog.txt" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
@@ -254,6 +255,8 @@
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
       <Project>{18B53C7B-1F6C-4009-DB3C-CA53E7EAB6F2}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp.csproj">
+      <Project>{8C0E7F09-6F1D-C63A-C97A-E40BC98D27E6}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
